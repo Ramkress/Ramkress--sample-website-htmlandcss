@@ -1,143 +1,593 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
 body{
-    font-family: 'Roboto', sans-serif;
-    font-size: 16;
+	font-family: 'poppins', sans-serif;
+	font-size:16px;
 }
-.background{
-    background-image: url(../images/vehicle.jpg);
+header{
+    background-color: #2c1548;
 }
 .header{
-    margin: 0 auto;
-    width: 90%;
     display: flex;
+    margin: 0 auto;
+    width: 85%;
+    align-items: center;
     justify-content: space-between;
     padding: 20px;
-    text-align: center;
+
 }
-.nav-container ul li{
-    display: inline-block;
+.nav{
+    display: flex;
     list-style: none;
-    padding: 10px;
-   
-}
-.nav-container ul li a {
     text-decoration: none;
-    color: black;
+    padding: 5px;
+    justify-content: space-between;
+    color: aliceblue;
+}
+.nav li{
+    padding: 16px;
+    text-decoration: none;
     font-size: 20px;
-    font-weight: 600;
-}
-.h1{
-    padding: 50px;
-}
-.section1{
-    background-color: rgb(0, 0, 0);
-}
-.para{
-    display: flex;
-    margin: 0 auto;
-    width: 90%;
-    padding: 67px;
-}
-.h2{
-    width: 50%;
-}
-.car{
-    width: 50%;
-}
-.car1{
-width: 558px;
-}
-.split{
-    display: flex;
-}
-.split1{
-width: 50%;
-}
-.split2{
-    width: 50%;
-}
-.section2{
-    padding: 40px 0 40px 95px;
     
 }
-.readmore{
-    margin-left: 100px;
+.nav li a{
     text-decoration: none;
-    border: 1px solid black;
-    padding: 10px;
-    border-radius: 14px 0px 0px 14px;
-}
-.readmore1{
-    margin-left: 100px;
-    text-decoration: none;
-    border: 1px solid rgb(255, 255, 255);
-    padding: 10px;
-    border-radius: 14px 0px 0px 14px;
     color: white;
 }
-
-.arrow{
+.facebook {
+    color: aliceblue;
+}
+.section1{
+    background-color: #2c1548;
+}
+.section{
     display: flex;
-    align-items: center;
-    PADDING-BOTTOM: 30PX;
+    margin: 0 auto;
+    width: 85%;
+    padding: 56px;
+    
 }
-.arrow1{
-    width: 19px;
-    padding: 10px;
-    border: 1px solid #000;
-    border-radius: 0px 14px 14px 0;
-    border-left: none;
+.h1{
+    width: 50%;
+    padding: 50px 10px 0 0;
 }
-.arrow2{
-    width: 19px;
-    padding: 10px;
-    border: 1px solid rgb(255, 255, 255);
-    border-radius: 0px 14px 14px 0;
-    border-left: none;
-    color: white;
-}
-
-
-.background1{
-  background-image: url(../images/thisisengineering-raeng-ZPeXrWxOjRQ-unsplash.jpg);
-  background-size:cover;
-  padding-bottom: 80px;
-  padding-top: 80px;
-}
-.manufecture{
-    width: 40%;
-    margin-left: 100px;
-    background-color: black;
-    BORDER-RADIUS: 25px;
-}
-.p1{
-    width: 60%;
-}
-.p2{
-    width: 40%;
-    padding-top: 180px;
-}
-.industry{
-    display: flex;
-    background-color: #000;
-    padding: 70px;
-}
-.footer-nav  ul li {
-    display: inline-block;
-    list-style: none;
-    padding: 10px;
+.form{
+    width: 50%;
+    
 
 }
-.footer-nav ul li a {
-    text-decoration: none;
-    color: rgb(0, 0, 0);
-    font-size: 20px;
+.name{
+    padding: 10px 10px 10px 0;
+}
+.name2{
+    padding: 16px ;
+    border-radius: 50px;
+    border: none;
+    width: 430px;
     font-weight: 600;
 }
-footer{
-    padding: 20px;
-    text-align: center;
+.name1{
+    display: flex;
+    padding: 10px 10px 10px 0;
 }
+.phone{
+    padding: 16px 31px;
+    border-radius: 69px;
+    border: none;
+    margin: 0 15px 0 0;
+    font-weight: 600;
+}
+.mail{
+    padding: 16px 17px;
+    border-radius: 69px;
+    border: none;
+    margin: 0 15px 0 0;
+    font-weight: 600;
+}
+.me{
+    border-radius: 9px;
+    width: 457px;
+    height: 60px;
+    border: none;
+    font-weight: 600;
+}
+.select{
+    border-radius: 50px;
+    padding: 16px;
+    border: none;
+    width: 461px;
+    font-weight: 600;
+}
+.course{
+    padding: 10px 10px 10px 0;
+    border-radius: 50px;
+    border: none;
+}
+.message{
+    padding: 10px 10px 10px 0;
+}
+.btn{
+    padding: 10px;
+    border-radius: 50px;
+}
+.btn1{
+    border-radius: 54px;
+    padding: 10px;
+    border: none;
+    background-color: #2b4eff;
+    color: white;
+}
+.h2{
+
+    font-size: 28px;
+    color: white;
+    line-height: 55px;
+}
+.form {
+    margin: 5px;
+}
+.h3{
+    font-size: 2em;
+    padding: 2px;
+    color: white;
+    line-height: 55px;
+    
+}
+.text{
+    color: black;
+}
+.contact:hover{
+    background-color: white;
+    color: black;
+}
+.internship:hover{
+    background-color: #2b4eff;
+    color: white;
+}
+.contact{
+    color: white;
+    padding: 8px;
+    text-decoration: none;
+    background-color: #2b4eff;
+    border-radius: 50px;
+
+}
+
+.internship{
+    margin: 33px;
+    padding: 8px;
+    text-decoration: none;
+    background-color: white;
+    border-radius: 50px;
+    
+
+}
+.link{
+    margin: 25px 25px 25px 0;
+}
+.btn1:hover{
+    border-color: rgb(255, 255, 255);
+    color: black;
+}
+.ourcourses{
+    color: #2c154f;
+    font-size: 45px;
+    font-weight: 700;
+    padding: 100px 0 48px 0
+}
+aside{
+    margin: 0 auto;
+    width: 85%;
+    padding: 0 0 100px 0;
+}
+.aside1{
+    display: flex;
+    width: 100%;
+}
+.icon{
+    width: 50px;
+}
+.box{
+    width: 33.33%;
+}
+.list{
+    width: 75%;
+    padding: 10px;
+    font-size: 17px;
+    font-weight: 600;
+    color: #7a7a7a;
+   }
+.list1{
+    padding: 20px 30px 20px 20px;
+    border-radius: 20px;
+}
+.icons{
+    width: 25%;
+    text-align: center;
+    padding: 10px;
+}
+.heading{
+    font-size: 36px;
+    font-weight: 700;
+    color: #2c1548;
+}
+.list2{
+    list-style: none;
+    line-height: 15px;
+}
+.pad{
+    display: flex;
+    box-shadow: 1px 1px 10px rgb(0 0 0 / 20%);
+    border-radius: 24px;
+}
+.section2{
+    margin: 0 auto;
+    width: 85%;
+    padding: 98px;
+    line-height: 30px;
+}
+.paragraph{
+    color: white;
+    font-size: 17px;
+    font-weight: 500;
+    padding: 10px 10px 10px 
+}
+.paragraph1{
+    display: flex;
+    color: white;
+    padding: 10px 0 10px 0;
+   
+}
+.certificate{
+    width: 30%;
+}
+.develop{
+    width: 70%;
+}
+.webdesign{
+    padding: 10px 0 10px 0;
+}
+.icon-box-title{
+    font-size: 48px;
+    font-weight: 800;
+    padding: 20px 20px 20px 20px;
+}
+.icon-box-content{
+    font-size: 34px;
+    font-weight: 600;
+    line-height: 1.2em;
+    padding: 20px 20px;
+}
+.boxed{
+    background-color: white;
+    color: #2b4efe;
+    border-radius: 25px;
+    margin: 10px 10px 10px 60px;
+}
+.boxed1{
+    background-color: white;
+    color: #2b4efe;
+    border-radius: 25px;
+}
+.section3{
+    margin: 0 auto;
+    width: 85%;
+    padding: 100px 0 100px 0;
+}
+
+.section3-h1{
+    font-size: 42px;
+    font-weight: 800;
+    padding: 20px 0;
+}
+.section3-para{
+    line-height: 25px;
+}
+.section3-list{
+    display: flex;
+    padding: 20px 0
+}
+.section3-list1{
+    width: 32%;
+    line-height: 40px;
+    
+}
+.section3-list1 ul{
+    list-style: none;
+}
+.section3-list1 ul li .fa-solid{
+    color: blue;
+    padding: 10px;
+    font-size: 20px;
+}
+.section3-list2{
+    width: 68%;
+}
+.section3-list2-title{
+    padding: 10px 0;
+}
+.section3-list2-para{
+    line-height: 30px;
+}
+.section3-link{
+    width: 139px;
+    padding: 12px 55px;
+    background-color: #2b4efe;
+    margin-top: 54px;
+    border-radius: 81px;
+    color: white;
+}
+.section3-list2-link{
+    color: white;
+    text-decoration: none
+}
+.section3-link:hover{
+    background-color: #2c1548;
+}
+
+.section4{
+  background-color: #2c1548;
+}
+
+.section4-part1{
+    width:71%;
+}
+.section4-part2{
+    width: 29%;
+    padding: 35px;
+}
+.section4-part{
+    display: flex;
+    margin: 0 auto;
+    width: 85%;
+    padding: 100px;
+}    
+.section4-para{
+    color: white;
+    line-height: 25px;
+    font-size: 18px;
+    padding: 10px;
+}
+.section4-title{
+    font-size: 42px;
+    padding: 0 10px 20px 0;
+    font-weight: 800;
+    color: white;
+}
+.section4-para2{
+    color: #2b4eff;
+    padding: 20px;
+    font-size: 18px;
+
+}
+.contact2{
+    color: white;
+    padding: 16px;
+    text-decoration: none;
+    background-color: #2b4eff;
+    border-radius: 50px;
+}
+.button{
+    padding: 50px 20px 20px 130px;
+}
+.contact2:hover{
+    background-color: white;
+    color: #2b4eff;
+}
+footer{
+    background-color: #2b4eff;
+}
+.nav1{
+    display: flex;
+    list-style: none;
+    padding: 5px;
+    justify-content: center;
+}
+.footer{
+    padding: 30px;
+}
+.nav1 li a {
+    text-decoration:none;
+    padding: 10px;
+    text-decoration: none;
+    font-weight: 600;
+    color: white;
+
+}
+.copyright{
+    text-align: center;
+    color: white;
+    padding: 20px;
+}
+@media (max-width:768px){
+    .aside1 {
+        display: flex;
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    .box{
+        width: 100%;
+    }
+    .h1 {
+        width: 100%;
+        padding: 50px 10px 100px 0;
+        text-align: left;
+    }
+    .h2 {
+        font-size: 40px;
+        color: white;
+        line-height: 90px;
+    }
+    .h3 {
+        font-size: 55px;
+        padding: 25px 25px 25px 0;
+        color: white;
+        line-height: 55px;
+        line-height: 90px
+    }
+    .section{
+        width:100%;
+        display: block;
+    }
+    .contact {
+        padding: 29px;
+    }
+    .link {
+        margin: 25px 25px 25px 0;
+        text-align: center;
+    }
+    .internship {
+        margin: 111px;
+        padding: 29px;
+    }
+    .name2 {
+        padding: 25px;
+        border-radius: 102px;
+        border: none;
+        width: 517px;
+        font-weight: 600;
+        font-size: 40px;
+    }
+    .name1{
+        display: block;
+        line-height: 120px;
+    }
+    .phone {
+        padding: 23px;
+        border-radius: 101px;
+        border: none;
+        margin: 0 26px 0 0;
+        font-weight: 600;
+        width: 505px;
+        font-size: 40px;
+    }
+    .mail {
+        padding: 27px;
+        border-radius: 69px;
+        border: none;
+        margin: 0 15px 0 0;
+        font-weight: 600;
+        width: 505px;
+        font-size: 40px;
+    }
+    .select {
+        border-radius: 77px;
+        padding: 24px;
+        border: none;
+        width: 557px;
+        font-weight: 600;
+        font-size: 40px;
+    }
+    .me {
+        border-radius: 16px;
+        width: 561px;
+        height: 156px;
+        border: none;
+        font-size: 50px;
+        font-weight: 600;
+    }
+    .btn1 {
+        border-radius: 92px;
+        padding: 26px;
+        border: none;
+        background-color: #2b4eff;
+        color: white;
+        width: 186px;
+        font-size: 40px;
+    }
+    .btn {
+        padding: 10px;
+        border-radius: 50px;
+        text-align: -webkit-right;
+        padding: 20px 0 0 380px;
+    }
+    .pad{
+        display: block;
+    }
+    .icons {
+        width: 100%;
+        text-align: center;
+        padding: 10px;;
+    }
+    .heading {
+        font-size: 60px;
+        font-weight: 700;
+        color: #2c1548;
+        text-align: center;
+    }
+    .list2 li{
+        font-size: 30px;
+    }
+    .list {
+        width: 100%;
+    
+    }
+    .ourcourses {
+        color: #2c154f;
+        font-size: 60px;
+    }
+    .list2 li {
+        font-size: 30px;
+        text-align: center;
+    }
+    .icon {
+        width: 137px;
+    }
+    .boxed {
+        background-color: white;
+        color: #2b4efe;
+        border-radius: 39px;
+        width: 250px;
+        margin: 0 0 10px 180px;
+    }
+    .boxed1{
+        background-color: white;
+        color: #2b4efe;
+        border-radius: 39px;
+        width: 250px;
+        margin: 0 0 10px 180px;
+
+    }s
+    .paragraph1 {
+        display: block;
+    }
+    .section2{
+        line-height: 30px;
+    padding: 30px;
+    }
+    .develop {
+        width: 100%;
+    }
+    .section3-list {
+        padding: 20px;
+        display: block;
+    }
+    .section3-list1 {
+        width: 100%;
+        line-height: 40px;
+    }
+    .section3 {
+        padding: 20px;
+    }
+    .section3-list2 {
+        width: 100%;
+    }
+    .section4-part {
+        width: 100%;
+        padding: 20px;
+        display: block;
+    }
+    .section4-part1 {
+        width: 100%;
+    }
+    .section4-part2 {
+        width: 100%;
+        padding: 35px;
+    }
+    .button {
+        padding: 29px 23px 20px 259px;
+    }
+}
+
