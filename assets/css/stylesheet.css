@@ -1,143 +1,123 @@
 *{
     margin: 0;
     padding: 0;
+
 }
 body{
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Satisfy', sans-serif, Roboto;
     font-size: 16;
 }
 .background{
-    background-image: url(../images/vehicle.jpg);
+   background-color: white;
+
+}
+.logo{
+    width: 30px;
 }
 .header{
     margin: 0 auto;
     width: 90%;
     display: flex;
     justify-content: space-between;
-    padding: 20px;
+    padding: 25px;
     text-align: center;
+    align-items: center;
+    position: sticky;
+    top: 0;
+
 }
 .nav-container ul li{
     display: inline-block;
     list-style: none;
-    padding: 10px;
-   
+    padding: 19px;
 }
 .nav-container ul li a {
     text-decoration: none;
-    color: black;
-    font-size: 20px;
-    font-weight: 600;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    font-weight: 100;
+    text-shadow: 2px 0.5px 10px #584c4e91;
+    font-family: roboto;
+}
+.link{
+    text-decoration: none;
+    padding: 10px 25px;
+    font-family: 'Roboto';
+    background: black;
+    color: aliceblue;
+    border-radius: 61px;
+    border: solid 1px #f5f5f5;
+}
+.link:hover{
+    background: #ef3f30;
+    color: aliceblue;
+}
+.background{
+    background-image: url(../images/spaghetti-g009c870b2_1920.jpg);
+    background-size: cover;
+
+}
+.color{
+    background-color: #000000b5;
 }
 .h1{
-    padding: 50px;
+    padding: 120px 202px;
+}
+.btn{
+    display: inline-block;
+    text-decoration: none;
+    background: rgb(255, 255, 255);
+    padding: 10px;border-radius: 75px;
+    box-shadow: 11px 14px 21px #000000;
+    transition: all 1s ease;
+    color: black;
+    text-align: center;
+    transform: translate(405px, 7px);
+    width: 120px;
+    font-family: 'Roboto';
+}
+.btn:hover {
+    background:#ef3f30;
+    color: aliceblue;
 }
 .section1{
-    background-color: rgb(0, 0, 0);
+    background-color: #060606cf;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.page1{
+    display: flex;
+    justify-content: center;
+}
+.page2{
+    display: flex;
+    justify-content: center;
+}
+.image{
+    border-radius: 166px 62px 158px 55px;
+    width: 320px;
+    padding: 50px;
+}
+.list ul li a{
+    text-decoration: none;
+    padding: 20px 158px 129px 200px;
+    font-size: 30px;
+    color: aliceblue;
+   
+}
+.list ul{
+    display: flex;
+    list-style: none;
 }
 .para{
-    display: flex;
-    margin: 0 auto;
-    width: 90%;
-    padding: 67px;
-}
-.h2{
-    width: 50%;
-}
-.car{
-    width: 50%;
-}
-.car1{
-width: 558px;
-}
-.split{
-    display: flex;
-}
-.split1{
-width: 50%;
-}
-.split2{
-    width: 50%;
+   text-align: center;
+   text-align: center;
+    background: aliceblue;
+    width: 600px;
+    margin-left: 300px;
+    transform: translate(10px, -66px);
+    border-radius: 25px;
 }
 .section2{
-    padding: 40px 0 40px 95px;
-    
-}
-.readmore{
-    margin-left: 100px;
-    text-decoration: none;
-    border: 1px solid black;
-    padding: 10px;
-    border-radius: 14px 0px 0px 14px;
-}
-.readmore1{
-    margin-left: 100px;
-    text-decoration: none;
-    border: 1px solid rgb(255, 255, 255);
-    padding: 10px;
-    border-radius: 14px 0px 0px 14px;
-    color: white;
-}
-
-.arrow{
-    display: flex;
-    align-items: center;
-    PADDING-BOTTOM: 30PX;
-}
-.arrow1{
-    width: 19px;
-    padding: 10px;
-    border: 1px solid #000;
-    border-radius: 0px 14px 14px 0;
-    border-left: none;
-}
-.arrow2{
-    width: 19px;
-    padding: 10px;
-    border: 1px solid rgb(255, 255, 255);
-    border-radius: 0px 14px 14px 0;
-    border-left: none;
-    color: white;
-}
-
-
-.background1{
-  background-image: url(../images/thisisengineering-raeng-ZPeXrWxOjRQ-unsplash.jpg);
-  background-size:cover;
-  padding-bottom: 80px;
-  padding-top: 80px;
-}
-.manufecture{
-    width: 40%;
-    margin-left: 100px;
-    background-color: black;
-    BORDER-RADIUS: 25px;
-}
-.p1{
-    width: 60%;
-}
-.p2{
-    width: 40%;
-    padding-top: 180px;
-}
-.industry{
-    display: flex;
-    background-color: #000;
-    padding: 70px;
-}
-.footer-nav  ul li {
-    display: inline-block;
-    list-style: none;
-    padding: 10px;
-
-}
-.footer-nav ul li a {
-    text-decoration: none;
-    color: rgb(0, 0, 0);
-    font-size: 20px;
-    font-weight: 600;
-}
-footer{
-    padding: 20px;
-    text-align: center;
+    background-color: #000000;
 }
